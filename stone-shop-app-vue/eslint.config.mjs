@@ -1,0 +1,116 @@
+import antfu from "@antfu/eslint-config";
+
+export default antfu(
+	{
+		toml: false,
+		ignores: [".vscode/*", ".idea/*", "/dist/*", "node_modules/*", "package.json", "yarn.lock"],
+	},
+	{
+		rules: {
+			"antfu/if-newline": "off",
+			"array-callback-return": [
+				"error",
+				{ allowImplicit: true },
+			],
+			"curly": ["error", "multi-line", "consistent"],
+			"style/quotes": ["error", "double"],
+			"style/semi": ["error", "always"],
+			"style/brace-style": ["error", "1tbs", { allowSingleLine: true }],
+			"style/no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+			"style/indent-binary-ops": ["error", "tab"],
+			"style/no-tabs": "off",
+			"style/indent": ["error", "tab"],
+			"jsonc/indent": ["error", "tab"],
+			"vue/script-indent": ["error", "tab", {
+				baseIndent: 0,
+				switchCase: 1,
+			}],
+			"vue/html-indent": ["error", "tab"],
+			"vue/brace-style": ["error", "1tbs", { allowSingleLine: true }],
+			"vue/block-order": ["error", {
+				order: ["template", "script", "style"],
+			}],
+			"vue/multi-word-component-names": ["error"],
+			"ts/method-signature-style": ["warn", "method"],
+			"n/prefer-global/process": "off",
+			"no-useless-return": "off",
+			"style/member-delimiter-style": ["error", {
+				multiline: {
+					delimiter: "semi",
+					requireLast: true,
+				},
+				singleline: {
+					delimiter: "semi",
+					requireLast: false,
+				},
+				multilineDetection: "brackets",
+			}],
+			"vue/component-name-in-template-casing": [
+				"warn",
+				"kebab-case",
+				{
+					registeredComponentsOnly: true,
+				},
+			],
+			"vue/custom-event-name-casing": [
+				"warn",
+				"camelCase",
+				{
+					ignores: ["/^[a-z]+(?:-[a-z]+)*:[a-z]+(?:-[a-z]+)*$/u"],
+				},
+			],
+			"no-console": "warn",
+			"vue/order-in-components": ["error", {
+				order: [
+					"el",
+					"name",
+					"key",
+					"parent",
+					"functional",
+					["delimiters", "comments"],
+					["components", "directives", "filters"],
+					"extends",
+					"mixins",
+					["provide", "inject"],
+					"ROUTER_GUARDS",
+					"layout",
+					"middleware",
+					"validate",
+					"scrollToTop",
+					"transition",
+					"loading",
+					"inheritAttrs",
+					"model",
+					"emits",
+					["props", "propsData"],
+					"setup",
+					"asyncData",
+					"computed",
+					"data",
+					"fetch",
+					"head",
+					"watch",
+					"watchQuery",
+					"methods",
+					"LIFECYCLE_HOOKS",
+					["template", "render"],
+					"renderError",
+				],
+			}],
+			"perfectionist/sort-imports": [
+				"error",
+				{
+					type: "line-length",
+					order: "asc",
+					groups: [
+						["type-external"],
+						["type-internal"],
+						"value-external",
+						"value-internal",
+					],
+				},
+			],
+			"jsdoc/require-returns-description": "off",
+		},
+	},
+);
