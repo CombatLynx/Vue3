@@ -1,8 +1,11 @@
 <template>
-	<div>Hello</div>
+	<div>posts</div>
 </template>
 
 <script setup lang="ts">
+
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

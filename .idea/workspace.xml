@@ -4,41 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1d3c1be-ef4c-4b88-887e-72474b32fc84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.pre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/eslint.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/shims-vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="c1d3c1be-ef4c-4b88-887e-72474b32fc84" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/app/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/pages/AccessDeniedPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/pages/HomePage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/pages/NotFoundPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/pages/PostsPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/pages/ProductsPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stone-shop-app-vue/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stone-shop-app-vue/.env.pre" beforeDir="false" afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.pre" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stone-shop-app-vue/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/stone-shop-app-vue/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stone-shop-app-vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/app/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stone-shop-app-vue/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/stone-shop-app-vue/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -85,8 +75,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\Vue3\\stone-shop-app-vue\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vue3\stone-shop-app-vue\src\app" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,11 +102,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764237926470</updated>
-      <workItem from="1764237927605" duration="3523000" />
+      <workItem from="1764237927605" duration="7132000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1764241969149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764241969149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
