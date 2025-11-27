@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "lib": ["ESNext", "ES6", "DOM", "DOM.Iterable"],
+    "moduleDetection": "force",
+    "baseUrl": ".",
+    "module": "ESNext",
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/shared": ["src/shared/index.ts"],
+      "@/components": ["src/components/index.ts"],
+      "@/entities": ["src/entities/index.ts"],
+      "@/widgets": ["src/widgets/index.ts"],
+      "@/composables": ["src/composables/index.ts"],
+      "@/api": ["src/api/index.ts"],
+      "@/types": ["src/types/index.ts"]
+    },
+    "allowImportingTsExtensions": true,
+
+    /* Linting */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true
+  },
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/vite-env.d.ts"]
+}
